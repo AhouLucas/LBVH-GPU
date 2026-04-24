@@ -105,6 +105,13 @@ python python/test_lbvh.py
 python python/benchmark_lbvh.py
 ```
 
+### Results
+
+We observe a whopping speedup between $500$ to $800 \times$ compared to the naive $\mathcal{O}(n^2)$ approach ! (see right plot) \
+The LBVH scales much better with increasing particle numbers, making it suitable for large-scale simulations.
+
+![Benchmark — LBVH vs naive O(n²)](figures/benchmark_lbvh.png)
+
 ## Acknowledgements
 
 Special thanks to Joachim de Favereau de Jeneret [@Joachim-defav](https://github.com/Joachim-defav) for helpful discussions on the algorithm.
