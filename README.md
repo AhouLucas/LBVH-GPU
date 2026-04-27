@@ -35,7 +35,12 @@ LBVH-GPU/
 ### Prerequisites
 
 - A C compiler (`gcc`) and OpenCL development headers/libraries
-- Python ≥ 3.8 with the dependencies listed in `requirements.txt`
+- The following Python packages: 
+
+    ```text
+    numpy
+    matplotlib 
+    ```
 
 ### Building the shared library
 
